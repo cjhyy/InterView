@@ -22,28 +22,28 @@ module.exports = {
                 ]
             },
 
-            {
-                text: '学习笔记',
-                items: [
-                    { text: '数学', link: 'https://github.com/cjhyy' },
-                    {
-                        text: '计算机',
-                        link: 'https://github.com/cjhyy'
-                    },
-                    {
-                        text: '英语',
-                        link: 'https://github.com/cjhyy'
-                    },
-                    {
-                        text: '日语',
-                        link: 'https://github.com/cjhyy'
-                    },
-                    {
-                        text: '其他',
-                        link: 'https://github.com/cjhyy'
-                    },
-                ]
-            },
+            // {
+            //     text: '学习笔记',
+            //     items: [
+            //         { text: '数学', link: 'https://github.com/cjhyy' },
+            //         {
+            //             text: '计算机',
+            //             link: 'https://github.com/cjhyy'
+            //         },
+            //         {
+            //             text: '英语',
+            //             link: 'https://github.com/cjhyy'
+            //         },
+            //         {
+            //             text: '日语',
+            //             link: 'https://github.com/cjhyy'
+            //         },
+            //         {
+            //             text: '其他',
+            //             link: 'https://github.com/cjhyy'
+            //         },
+            //     ]
+            // },
             { text: 'Github', link: 'https://github.com/cjhyy' },
         ],
         sidebar: [{
@@ -82,6 +82,31 @@ module.exports = {
                     '/Css3/Sass、Less、Stylus区别',       
                     '/Css3/浅谈CSS响应式布局',       
                     '/Css3/link和@import有什么区别'       
+                ]
+            },
+            {
+                title: 'Javascript',
+                children: [
+                    '/Javascript/JS基本数据类型',
+                    '/Javascript/异步代码的执行结果',
+                    '/Javascript/如何统计网⻚上出现了多少种标签',       
+                    '/Javascript/几种判断数据类型的优缺点',       
+                    '/Javascript/原生ajax',   
+                    // '/Javascript/null和undefined的区别',
+                    '/Javascript/DOM事件类',  
+                    '/Javascript/对象深浅拷贝',  
+                    '/Javascript/谈谈你对Promise的理解',  
+                    '/Javascript/this的理解',  
+                    '/Javascript/Class与JS构造函数的区别',  
+                    '/Javascript/ES6其他常用功能',  
+                    '/Javascript/箭头函数',  
+                    '/Javascript/函数柯里化',  
+                    '/Javascript/什么是单线程，和异步有何不同',  
+                    '/Javascript/什么是event-loop',  
+                    '/Javascript/自己可以实现一个new吗',  
+                    '/Javascript/bind、call、apply用法及区别',  
+                    '/Javascript/目前JS解决异步的方案有哪些',  
+                    '/Javascript/实现 (5).add(3).minus(2)，使其输出结果为6'
                 ]
             }
         ]
