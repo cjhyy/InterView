@@ -93,6 +93,7 @@ module.exports = {
                     '/Javascript/几种判断数据类型的优缺点',       
                     '/Javascript/原生ajax',   
                     // '/Javascript/null和undefined的区别',
+                    '/Javascript/函数的防抖和节流',                    
                     '/Javascript/DOM事件类',  
                     '/Javascript/对象深浅拷贝',  
                     '/Javascript/谈谈你对Promise的理解',  
