@@ -108,6 +108,68 @@ module.exports = {
                     '/Javascript/目前JS解决异步的方案有哪些',  
                     '/Javascript/实现 (5).add(3).minus(2)，使其输出结果为6'
                 ]
+            },
+            {
+                title: 'Vue',
+                children: [
+                    '/Vue/MVC & MVVM的理解',
+                    '/Vue/Virtual DOM的理解',
+                    '/Vue/Vue 路由懒加载',       
+                    '/Vue/Proxy与Object.defineProperty()的对比',       
+                    '/Vue/Vue 组件间的通信',   
+                    '/Vue/谈谈你对生命周期的理解',  
+                    '/Vue/vue的diff算法',  
+                    '/Vue/vue-router导航守卫',  
+                    '/Vue/Vuex的理解及使用场景',  
+                    '/Vue/Vue底层实现原理'
+                ]
+            },
+            {
+                title:'React',
+                children:[
+                    '/React/React生命周期',
+                    '/React/谈谈你对Redux的理解'
+                ]
+            },
+            {
+                title:'Webpack',
+                children:[
+                ]
+            },
+            {
+                title:'Http',
+                children:[
+                    '/Http/HTTP发展史',
+                    '/Http/HTTP工作原理',
+                    '/Http/HTTP请求响应的步骤',
+                    '/Http/HTTP主要特点',
+                    '/Http/HTTP报文的组成成分',
+                    '/Http/HTTP方法',
+                    '/Http/POST和GET方法',
+                    '/Http/HTTP状态码',
+                    '/Http/常见状态码',
+                    '/Http/什么是持久连接',
+                    '/Http/什么是管线化'
+                ]
+            },
+            {
+                title:'浏览器',
+                children:[
+                    '/Browser/从输入URL到页面加载的全过程',
+                    '/Browser/重绘 & 回流',
+                    '/Browser/常见浏览器及其内核',
+                    '/Browser/跨域通信的几种方式'
+                ]  
+            },
+            {
+                title:'性能和安全',
+                children:[
+                    '/Safe/提升页面性能的方法有哪些',
+                    '/Safe/前端错误类',
+                    '/Safe/安全类',
+                    '/Safe/什么是同源策略及限制',
+                    '/Safe/常见的兼容性问题'
+                ]  
             }
         ]
 
