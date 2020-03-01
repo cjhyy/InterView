@@ -137,6 +137,7 @@ module.exports = {
                 children:[
                     '/React/React生命周期',
                     '/React/Redux实现',
+                    '/React/React组件通信',
                     '/React/谈谈你对Redux的理解'
                 ]
             },

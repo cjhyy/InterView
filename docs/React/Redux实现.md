@@ -2,7 +2,7 @@
 
 <ans>
 
-#### 一.redux
+#### 一.Redux
 
 redux的3个api实现获取 修改 订阅 大概模板如下
 
@@ -16,7 +16,13 @@ export const createStore = () => {
 }
 ```
 
- 
+#### 二.React-Redux
+
+
+
+```
+
+```
 
 </ans>
 
