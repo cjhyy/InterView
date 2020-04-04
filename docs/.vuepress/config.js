@@ -14,7 +14,7 @@ module.exports = {
         // 2.设置true，开启最后更新时间
         lastUpdated: true,
         nav: [
-            { text: '前端', link: '/' },
+            { text: '前端', link: 'https://cjhyy.github.io/Prebook/' },
             {
                 text: '算法',
                 items: [
@@ -139,6 +139,25 @@ module.exports = {
                     '/React/Redux实现',
                     '/React/React组件通信',
                     '/React/谈谈你对Redux的理解'
+                ]
+            },
+            {
+                title: '微信小程序',
+                children: [
+                    // '/wechat/',
+                    '/wechat/小程序checkbox样式的修改',
+                    '/wechat/小程序input原有样式改进',
+                    '/wechat/小程序picker组件',
+                    '/wechat/小程序setData',
+                    '/wechat/小程序中checkbox问题',
+                    '/wechat/小程序中多个不同时间倒计时实现',
+                    '/wechat/小程序中的页面跳转',
+                    '/wechat/小程序中的页面间数据传递',
+                    '/wechat/小程序列表排序',
+                    '/wechat/小程序回到顶部',
+                    '/wechat/小程序微信自带卡劵功能',
+                    '/wechat/小程序通知滚动小提示',
+                    '/wechat/小程序点击样式切换',
                 ]
             },
             {
